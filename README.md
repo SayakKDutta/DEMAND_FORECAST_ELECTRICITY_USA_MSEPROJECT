@@ -1,4 +1,4 @@
-# Unit Generation Time Series Analysis and Hypothesis Testing
+# Power Generation (USA) Time Series Analysis and Hypothesis Testing
 
 ## Project Summary
 This project focuses on analyzing unit generation data for the USA from January 1, 1990, to June 1, 2023. The analysis includes time series modeling using ARIMA and SARIMA models for prediction, as well as hypothesis testing using the t-test to compare two groups.

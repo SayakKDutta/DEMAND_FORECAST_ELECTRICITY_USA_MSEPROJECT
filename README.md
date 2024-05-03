@@ -36,9 +36,11 @@ This project focuses on analyzing power generation data for the USA from January
 - This repository contains code and analysis scripts for conducting time series analysis and hypothesis testing on unit generation data.
 - Contributions and feedback are welcome through pull requests and issue submissions.
 
-Acknowledgments
+## Acknowledgments
 The dataset used in this analysis is sourced from [https://www.eia.gov/electricity/data/state/] and is publicly available.
-Contact
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Contributing
 1. Fork the repository.

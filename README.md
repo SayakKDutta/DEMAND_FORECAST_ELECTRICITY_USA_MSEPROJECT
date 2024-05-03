@@ -1,22 +1,51 @@
-Time Series Analysis and Hypothesis Testing for Unit Generation in USA
+# Unit Generation Time Series Analysis and Hypothesis Testing
 
-Overview
-This repository contains code and analysis for conducting time series analysis and hypothesis testing on unit generation data for the USA from January 1, 1990, to June 1, 2023. The analysis includes hypothesis testing using the t-test to compare two groups and prediction using ARIMA and SARIMA models.
+## Project Summary
+This project focuses on analyzing unit generation data for the USA from January 1, 1990, to June 1, 2023. The analysis includes time series modeling using ARIMA and SARIMA models for prediction, as well as hypothesis testing using the t-test to compare two groups.
 
-Hypothesis Testing
-Null Hypothesis (H0)
-There is no significant difference in the mean 'Unit Generated' between two groups.
+## Dataset Overview
+- The dataset contains information on unit generation over time, spanning from January 1, 1990, to June 1, 2023.
+- Data analysis involves time series decomposition, visualization, modeling using ARIMA and SARIMA, and hypothesis testing.
 
-Alternative Hypothesis (H1)
-There is a significant difference in the mean 'Unit Generated' between the groups.
+## Data Analysis
+- Time series decomposition:
+  - Decomposition of the time series into trend, seasonal, and residual components using additive and multiplicative models.
+  - Visualization of the decomposed components to understand the underlying patterns.
 
-Time Series Prediction
-The prediction of unit generation is done using ARIMA and SARIMA models. These models forecast future unit generation based on historical data.
+- Auto ARIMA modeling:
+  - Automatic selection of ARIMA orders using the pmdarima library.
+  - Model fitting and prediction for a specified date range.
+  - Visualization of predicted values against actual data for model evaluation.
 
-File Structure
-Final_Total_Dataframe_Stats: Contains the dataset for unit generation.
+- SARIMAX modeling:
+  - Manual selection of SARIMA orders based on analysis.
+  - Model fitting and prediction for a specified date range.
+  - Comparison of predicted values with actual data for evaluation.
+
+## Hypothesis Testing
+- Null Hypothesis (H0): There is no significant difference in the mean 'Unit Generated' between two groups.
+- Alternative Hypothesis (H1): There is a significant difference in the mean 'Unit Generated' between the groups.
+- Conducting a t-test to compare the means of the two groups and infer whether there is a statistically significant difference.
+
+## Conclusion
+- Time series analysis using ARIMA and SARIMA models provides insights into unit generation patterns and enables forecasting.
+- Hypothesis testing helps in understanding differences in unit generation between different groups or periods.
+- Further analysis and refinement of models may be necessary to improve prediction accuracy and test hypotheses more effectively.
+
+## Repository Information
+- This repository contains code and analysis scripts for conducting time series analysis and hypothesis testing on unit generation data.
+- Contributions and feedback are welcome through pull requests and issue submissions.
 
 Acknowledgments
 The dataset used in this analysis is sourced from [https://www.eia.gov/electricity/data/state/] and is publicly available.
 Contact
-For any questions or feedback, please contact [sayak.kr.dutta1@gmail.com].
+
+## Contributing
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Create a new Pull Request.
+
+## Contact
+For any questions or feedback, please contact [sayak.kr.dutta1@gmail.com](mailto:sayak.kr.dutta1@gmail.com).

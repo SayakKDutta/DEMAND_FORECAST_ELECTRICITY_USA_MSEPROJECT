@@ -28,7 +28,7 @@ This project focuses on analyzing power generation data for the USA from January
 - Conducting a t-test to compare the means of the two groups and infer whether there is a statistically significant difference.
 
 ## Conclusion
-- Time series analysis using ARIMA and SARIMA models provides insights into unit generation patterns and enables forecasting.
+- Time series analysis using ARIMA and SARIMA models provides insights into unit generation patterns and enables forecasting. Where SARIMA gives better predictions.
 - Hypothesis testing helps in understanding differences in unit generation between different groups or periods.
 - Further analysis and refinement of models may be necessary to improve prediction accuracy and test hypotheses more effectively.
 

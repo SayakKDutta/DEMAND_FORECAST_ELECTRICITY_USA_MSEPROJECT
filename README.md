@@ -37,7 +37,7 @@ This project focuses on analyzing power generation data for the USA from January
 - Contributions and feedback are welcome through pull requests and issue submissions.
 
 ## Acknowledgments
-The dataset [Dataset.csv](Final_Total_Dataframe_Stats) used in this analysis is sourced from [https://www.eia.gov/electricity/data/state/] and is publicly available.
+The dataset [Final_Total_Dataframe_Stats.csv](Final_Total_Dataframe_Stats.csv) used in this analysis is sourced from [https://www.eia.gov/electricity/data/state/] and is publicly available.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
